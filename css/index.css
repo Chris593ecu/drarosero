@@ -1,0 +1,79 @@
+:root {
+    --bs-primary-rgb: 15, 76, 129; /* Azul Médico / Elegante */
+}
+.bg-medical {
+    background-color: #0f4c81;
+}
+.text-medical {
+    color: #0f4c81;
+}
+.hero-section {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 80px 0;
+}
+.whatsapp-float {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.whatsapp-float:hover {
+    color: white;
+    background-color: #1ebe57;
+}
+
+/* --- AUMENTAR TAMAÑO Y CONTRASTE EN LA NAVEGACIÓN --- */
+.navbar-nav .nav-link {
+    font-size: 1rem !important; /* Aumenta el tamaño del texto del menú */
+    font-weight: 600 !important; /* Hace la tipografía más firme y legible */
+    color: #2c3e50 !important; /* Cambia el gris claro por un tono más oscuro y legible */
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0d6efd !important; /* Color al pasar el cursor */
+}
+
+/* --- AUMENTAR TAMAÑO Y CONTRASTE DE LOS TEXTOS SECUNDARIOS Y SUBTÍTULOS --- */
+.lead {
+    font-size: 1.25rem !important; /* Aumenta "Salud y Medicina Capilar" y destacados */
+    font-weight: 600 !important;
+    color: #1a252f !important;
+}
+
+p.text-muted,
+.text-muted {
+    color: #4a5568 !important; /* Reemplaza el gris claro por un gris oscuro de mejor contraste */
+    font-size: 1.05rem !important; /* Tamaño base de los párrafos ligeramente mayor */
+    line-height: 1.6;
+}
+
+/* --- BADGES / ETIQUETAS --- */
+.badge {
+    font-size: 0.9rem !important; /* Aumenta el texto de "Centro Médico Tipo A" */
+    padding: 0.5em 0.8em !important;
+}
+
+/* --- BOTONES Y SUBTÍTULOS DE SECCIÓN --- */
+.btn {
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+}
+
+h2,
+.h2 {
+    font-size: 2rem !important;
+}
