@@ -26,6 +26,8 @@ require_once __DIR__ . '/config.php'
 
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="<?= BASE_URL ?>css/index.css" />
+    <link rel="stylesheet" href="<?= BASE_URL ?>css/nav.css" />
+
 </head>
 
 <body>
@@ -70,7 +72,7 @@ require_once __DIR__ . '/config.php'
                 </div>
                 <div class="col-lg-5 text-center">
                     <img
-                        src="img/dra-de-pie.jpeg"
+                        src="img/dra-de-pie.webp"
                         alt="Dra. María Fernanda Rosero Franco"
                         class="img-fluid rounded-4 shadow-lg" />
                 </div>
@@ -136,7 +138,7 @@ require_once __DIR__ . '/config.php'
             <div class="row align-items-center">
                 <div class="col-lg-5 mb-4 mb-lg-0">
                     <img
-                        src="img/dra-hair.jpg"
+                        src="img/dra-hair.webp"
                         alt="Trayectoria Médica"
                         class="img-fluid rounded-4 shadow" />
                 </div>

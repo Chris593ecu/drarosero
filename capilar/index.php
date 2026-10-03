@@ -26,11 +26,13 @@ require_once __DIR__ . '/../config.php';
 
     <!-- Estilos CSS Globales -->
     <link rel="stylesheet" href="<?= BASE_URL ?>css/index.css" />
+    <link rel="stylesheet" href="<?= BASE_URL ?>css/nav.css" />
+
 </head>
 
 <body>
     <!-- Navegación reutilizable -->
-    <?php require_once __DIR__ . '/../includes/nav.php'; ?>
+    <?php require_once BASE_PATH . 'includes/nav.php'; ?>
 
     <!-- 1. Hero Section Capilar -->
     <section class="hero-section py-5 bg-light border-bottom">
