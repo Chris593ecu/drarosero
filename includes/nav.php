@@ -11,9 +11,9 @@
                 <li class="nav-item">
                     <a class="nav-link fs-6 fw-semibold text-dark" href="<?= BASE_URL ?>#inicio">Inicio</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link fs-6 fw-semibold text-dark" href="<?= BASE_URL ?>#centro-medico">Eternal Medic</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link fs-6 fw-semibold text-dark" href="<?= BASE_URL ?>#trayectoria">Trayectoria</a>
                 </li>

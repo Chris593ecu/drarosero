@@ -28,6 +28,10 @@ require_once __DIR__ . '/config.php'
     <link rel="stylesheet" href="<?= BASE_URL ?>css/index.css" />
     <link rel="stylesheet" href="<?= BASE_URL ?>css/nav.css" />
 
+    <!-- Logo -->
+    <link rel="icon" type="image/png" href="<?= BASE_URL ?>img/logo.webp" />
+
+
 </head>
 
 <body>
