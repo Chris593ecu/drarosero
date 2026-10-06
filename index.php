@@ -50,7 +50,7 @@ require_once __DIR__ . '/config.php'
                         Dra. María Fernanda Rosero Franco
                     </h1>
                     <p class="lead text-medical fw-semibold mb-3">
-                        Directora General del Centro Médico y de Especialidades "Eternal Medic" <br />
+                        Directora General del Centro Médico Capilar "Eternal Medic" <br />
                         <span class="text-secondary fw-normal">
                             Salud y Medicina Capilar
                         </span>
@@ -67,11 +67,11 @@ require_once __DIR__ . '/config.php'
                             class="btn btn-primary btn-lg bg-medical border-0">
                             <i class="bi bi-whatsapp me-2"></i>Agendar Consulta
                         </button>
-                        <a
+                        <!-- <a
                             href="#centro-medico"
                             class="btn btn-outline-secondary btn-lg">
                             Especialidades Médicas y Medicina aplicada
-                        </a>
+                        </a> -->
                     </div>
                 </div>
                 <div class="col-lg-5 text-center">
@@ -89,7 +89,7 @@ require_once __DIR__ . '/config.php'
         <div class="container py-4">
             <div class="text-center mb-5">
                 <h2 class="fw-bold text-medical">
-                    Centro Médico y de Especialidades "Eternal Medic"
+                    Centro Médico Capilar "Eternal Medic"
                 </h2>
                 <p class="text-muted">
                     Instalaciones acreditadas Tipo A para la atención médica

@@ -209,11 +209,11 @@ require_once __DIR__ . '/../config.php';
                     <article class="col-lg-4 col-md-6">
                         <div class="card h-100 border-0 shadow-sm overflow-hidden">
                             <figure class="mb-0">
-                                <img src="<?= BASE_URL ?>assets/img/casos/efluvio-caso-1.webp" class="card-img-top img-fluid" alt="Antes y Después Efluvio Telógeno Postparto" loading="lazy">
+                                <img src="<?= BASE_URL ?>img/efluvio-telogeno1.webp" class="card-img-top img-fluid" alt="Antes y Después Efluvio Telógeno Postparto" loading="lazy">
                             </figure>
                             <div class="card-body">
                                 <span class="badge bg-success mb-2">Evolución a 3 Meses</span>
-                                <h3 class="h5 fw-bold">Paciente Femenina (31 años)</h3>
+                                <h3 class="h5 fw-bold">Paciente Femenina (49 años)</h3>
                                 <p class="card-text text-muted small">
                                     Efluvio telógeno severo postparto con pérdida difusa del 40% de densidad. Frenado inmediato de caída y brote masivo de nuevo pelo (baby hair).
                                 </p>
@@ -225,7 +225,7 @@ require_once __DIR__ . '/../config.php';
                     <article class="col-lg-4 col-md-6">
                         <div class="card h-100 border-0 shadow-sm overflow-hidden">
                             <figure class="mb-0">
-                                <img src="<?= BASE_URL ?>assets/img/casos/efluvio-caso-2.webp" class="card-img-top img-fluid" alt="Antes y Después Efluvio por Estrés" loading="lazy">
+                                <img src="<?= BASE_URL ?>img/efluvio-telogeno2.webp" class="card-img-top img-fluid" alt="Antes y Después Efluvio por Estrés" loading="lazy">
                             </figure>
                             <div class="card-body">
                                 <span class="badge bg-success mb-2">Evolución a 4 Meses</span>
@@ -241,7 +241,7 @@ require_once __DIR__ . '/../config.php';
                     <article class="col-lg-4 col-md-6">
                         <div class="card h-100 border-0 shadow-sm overflow-hidden">
                             <figure class="mb-0">
-                                <img src="<?= BASE_URL ?>assets/img/casos/efluvio-caso-3.webp" class="card-img-top img-fluid" alt="Antes y Después Efluvio Post-Enfermedad" loading="lazy">
+                                <img src="<?= BASE_URL ?>img/efluvio-telogeno3.webp" class="card-img-top img-fluid" alt="Antes y Después Efluvio Post-Enfermedad" loading="lazy">
                             </figure>
                             <div class="card-body">
                                 <span class="badge bg-success mb-2">Evolución a 4 Meses</span>

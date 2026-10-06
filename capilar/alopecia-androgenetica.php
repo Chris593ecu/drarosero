@@ -209,13 +209,13 @@ require_once __DIR__ . '/../config.php';
                     <article class="col-lg-4 col-md-6">
                         <div class="card h-100 border-0 shadow-sm overflow-hidden">
                             <figure class="mb-0">
-                                <img src="<?= BASE_URL ?>assets/img/casos/androgenetica-caso-1.webp" class="card-img-top img-fluid" alt="Antes y Después Alopecia Androgenética Masculina" loading="lazy">
+                                <img src="<?= BASE_URL ?>img/alopecia-androgenetica1.webp" class="card-img-top img-fluid" alt="Antes y Después Alopecia Androgenética Masculina" loading="lazy">
                             </figure>
                             <div class="card-body">
                                 <span class="badge bg-success mb-2">Evolución a 6 Meses</span>
                                 <h3 class="h5 fw-bold">Paciente Masculino (33 años)</h3>
                                 <p class="card-text text-muted small">
-                                    Alopecia Androgenética grado III con clareo en coronilla. Recuperación de densidad folicular mediante mesoterapia y terapia oral.
+                                    Alopecia Androgenética grado III en entradas. Recuperación de densidad folicular mediante mesoterapia y terapia oral.
                                 </p>
                             </div>
                         </div>
@@ -225,13 +225,13 @@ require_once __DIR__ . '/../config.php';
                     <article class="col-lg-4 col-md-6">
                         <div class="card h-100 border-0 shadow-sm overflow-hidden">
                             <figure class="mb-0">
-                                <img src="<?= BASE_URL ?>assets/img/casos/androgenetica-caso-2.webp" class="card-img-top img-fluid" alt="Antes y Después Alopecia Androgenética Femenina" loading="lazy">
+                                <img src="<?= BASE_URL ?>img/alopecia-androgenetica2.webp" class="card-img-top img-fluid" alt="Antes y Después Alopecia Androgenética Femenina" loading="lazy">
                             </figure>
                             <div class="card-body">
                                 <span class="badge bg-success mb-2">Evolución a 5 Meses</span>
-                                <h3 class="h5 fw-bold">Paciente Femenina (38 años)</h3>
+                                <h3 class="h5 fw-bold">Paciente Masculino (38 años)</h3>
                                 <p class="card-text text-muted small">
-                                    Patrón femenino difuso con pérdida de densidad en la raya central. Redensificación y fortalecimiento notable de la fibra capilar.
+                                    Patrón masculino difuso con pérdida de densidad en la raya central. Redensificación y fortalecimiento notable de la fibra capilar.
                                 </p>
                             </div>
                         </div>
@@ -241,7 +241,7 @@ require_once __DIR__ . '/../config.php';
                     <article class="col-lg-4 col-md-6">
                         <div class="card h-100 border-0 shadow-sm overflow-hidden">
                             <figure class="mb-0">
-                                <img src="<?= BASE_URL ?>assets/img/casos/androgenetica-caso-3.webp" class="card-img-top img-fluid" alt="Antes y Después Efluvio Telógeno" loading="lazy">
+                                <img src="<?= BASE_URL ?>img/alopecia-androgenetica3.webp" class="card-img-top img-fluid" alt="Antes y Después Efluvio Telógeno" loading="lazy">
                             </figure>
                             <div class="card-body">
                                 <span class="badge bg-success mb-2">Evolución a 4 Meses</span>

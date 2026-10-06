@@ -180,13 +180,13 @@ require_once __DIR__ . '/../config.php';
                     <article class="col-lg-4 col-md-6">
                         <div class="card h-100 border-0 shadow-sm overflow-hidden">
                             <figure class="mb-0">
-                                <img src="<?= BASE_URL ?>assets/img/casos/areata-caso-1.webp" class="card-img-top img-fluid" alt="Antes y Después Alopecia Areata Caso 1" loading="lazy">
+                                <img src="<?= BASE_URL ?>img/alopecia-areata1.webp" class="card-img-top img-fluid" alt="Antes y Después Alopecia Areata Caso 1" loading="lazy">
                             </figure>
                             <div class="card-body">
-                                <span class="badge bg-success mb-2">Evolución a 12 Semanas</span>
-                                <h3 class="h5 fw-bold">Paciente Masculino (31 años)</h3>
+                                <span class="badge bg-success mb-2">Evolución a 3 Semanas</span>
+                                <h3 class="h5 fw-bold">Paciente Femenina (31 años)</h3>
                                 <p class="card-text text-muted small">
-                                    Placa única de tamaño mediano en zona occipital. Repoblación completa del área mediante inmunomodulación y mesoterapia focalizada.
+                                    Placa única de tamaño extenso en zona de coronilla. Repoblación completa con cabellos nuevos en el área mediante inmunomodulación y mesoterapia focalizada.
                                 </p>
                             </div>
                         </div>
@@ -196,13 +196,13 @@ require_once __DIR__ . '/../config.php';
                     <article class="col-lg-4 col-md-6">
                         <div class="card h-100 border-0 shadow-sm overflow-hidden">
                             <figure class="mb-0">
-                                <img src="<?= BASE_URL ?>assets/img/casos/areata-caso-2.webp" class="card-img-top img-fluid" alt="Antes y Después Alopecia Areata Caso 2" loading="lazy">
+                                <img src="<?= BASE_URL ?>img/alopecia-areata2.webp" class="card-img-top img-fluid" alt="Antes y Después Alopecia Areata Caso 2" loading="lazy">
                             </figure>
                             <div class="card-body">
                                 <span class="badge bg-success mb-2">Evolución a 16 Semanas</span>
-                                <h3 class="h5 fw-bold">Paciente Femenina (27 años)</h3>
+                                <h3 class="h5 fw-bold">Paciente Femenina (9 años)</h3>
                                 <p class="card-text text-muted small">
-                                    Múltiples parches en zona parietal asociados a estrés agudo. Detención de la progresión y recuperación del grosor y densidad del cabello.
+                                    Parche en zona de coronilla asociados a estrés agudo. Detención de la progresión y recuperación del grosor y densidad del cabello.
                                 </p>
                             </div>
                         </div>
@@ -212,13 +212,13 @@ require_once __DIR__ . '/../config.php';
                     <article class="col-lg-4 col-md-6">
                         <div class="card h-100 border-0 shadow-sm overflow-hidden">
                             <figure class="mb-0">
-                                <img src="<?= BASE_URL ?>assets/img/casos/areata-caso-3.webp" class="card-img-top img-fluid" alt="Antes y Después Alopecia Areata en Barba Caso 3" loading="lazy">
+                                <img src="<?= BASE_URL ?>img/alopecia-areata3.webp" class="card-img-top img-fluid" alt="Antes y Después Alopecia Areata en Barba Caso 3" loading="lazy">
                             </figure>
                             <div class="card-body">
-                                <span class="badge bg-success mb-2">Evolución a 10 Semanas</span>
-                                <h3 class="h5 fw-bold">Paciente Masculino (35 años)</h3>
+                                <span class="badge bg-success mb-2">Evolución a 12 Semanas</span>
+                                <h3 class="h5 fw-bold">Paciente Femenina (23 años)</h3>
                                 <p class="card-text text-muted small">
-                                    Alopecia Areata en zona de la barba. Tratamiento infiltrativo intralesional con cierre total del parche y crecimiento uniforme.
+                                    Alopecia Areata en línea media. Tratamiento infiltrativo intralesional con cierre total del parche y crecimiento uniforme.
                                 </p>
                             </div>
                         </div>

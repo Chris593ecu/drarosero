@@ -209,13 +209,13 @@ require_once __DIR__ . '/../config.php';
                     <article class="col-lg-4 col-md-6">
                         <div class="card h-100 border-0 shadow-sm overflow-hidden">
                             <figure class="mb-0">
-                                <img src="<?= BASE_URL ?>assets/img/casos/psoriasis-caso-1.webp" class="card-img-top img-fluid" alt="Antes y Después Tratamiento Psoriasis Capilar Caso 1" loading="lazy">
+                                <img src="<?= BASE_URL ?>img/psoriasis-capilar3.webp" class="card-img-top img-fluid" alt="Antes y Después Tratamiento Psoriasis Capilar Caso 1" loading="lazy">
                             </figure>
                             <div class="card-body">
-                                <span class="badge bg-success mb-2">Evolución a 12 Semanas</span>
-                                <h3 class="h5 fw-bold">Paciente Femenina (38 años)</h3>
+                                <span class="badge bg-success mb-2">Evolución a 15 días</span>
+                                <h3 class="h5 fw-bold">Paciente Femenina (42 años)</h3>
                                 <p class="card-text text-muted small">
-                                    Placas psoriásicas severas en nuca y zona occipital con descamación constante. Remisión completa de la inflamación y restauración de la barrera cutánea.
+                                    Placas psoriásicas en zona frontal. Remisión completa de la inflamación y restauración de la barrera cutánea.
                                 </p>
                             </div>
                         </div>
@@ -225,13 +225,13 @@ require_once __DIR__ . '/../config.php';
                     <article class="col-lg-4 col-md-6">
                         <div class="card h-100 border-0 shadow-sm overflow-hidden">
                             <figure class="mb-0">
-                                <img src="<?= BASE_URL ?>assets/img/casos/psoriasis-caso-2.webp" class="card-img-top img-fluid" alt="Antes y Después Tratamiento Psoriasis Capilar Caso 2" loading="lazy">
+                                <img src="<?= BASE_URL ?>img/psoriasis-capilar2.webp" class="card-img-top img-fluid" alt="Antes y Después Tratamiento Psoriasis Capilar Caso 2" loading="lazy">
                             </figure>
                             <div class="card-body">
                                 <span class="badge bg-success mb-2">Evolución a 8 Semanas</span>
-                                <h3 class="h5 fw-bold">Paciente Masculino (45 años)</h3>
+                                <h3 class="h5 fw-bold">Paciente Femenina (28 años)</h3>
                                 <p class="card-text text-muted small">
-                                    Involucramiento de línea frontal y orejas. Reducción total de la picazón desde las primeras semanas y control de la descamación.
+                                    Placa de psoriasis con extensión a la zona retroauricular y pabellón auricular. Eliminación total de la descamación gruesa y remisión completa del eritema desde las primeras semanas.
                                 </p>
                             </div>
                         </div>
@@ -241,13 +241,13 @@ require_once __DIR__ . '/../config.php';
                     <article class="col-lg-4 col-md-6">
                         <div class="card h-100 border-0 shadow-sm overflow-hidden">
                             <figure class="mb-0">
-                                <img src="<?= BASE_URL ?>assets/img/casos/psoriasis-caso-3.webp" class="card-img-top img-fluid" alt="Antes y Después Tratamiento Psoriasis Capilar Caso 3" loading="lazy">
+                                <img src="<?= BASE_URL ?>img/psoriasis-capilar1.webp" class="card-img-top img-fluid" alt="Antes y Después Tratamiento Psoriasis Capilar Caso 3" loading="lazy">
                             </figure>
                             <div class="card-body">
-                                <span class="badge bg-success mb-2">Evolución a 16 Semanas</span>
+                                <span class="badge bg-success mb-2">Evolución a 8 Semanas</span>
                                 <h3 class="h5 fw-bold">Paciente Femenina (29 años)</h3>
                                 <p class="card-text text-muted small">
-                                    Cuadro complejo de descamación difusa y sangrado folicular. Recuperación del volumen capilar y remisión de síntomas inflamatorios.
+                                    Placas hiperqueratósicas difusas con descamación adherida. Remisión completa de la inflamación, remoción de escamas y recuperación de la densidad capilar a las 16 semanas.
                                 </p>
                             </div>
                         </div>

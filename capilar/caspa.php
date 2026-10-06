@@ -209,11 +209,11 @@ require_once __DIR__ . '/../config.php';
                     <article class="col-lg-4 col-md-6">
                         <div class="card h-100 border-0 shadow-sm overflow-hidden">
                             <figure class="mb-0">
-                                <img src="<?= BASE_URL ?>assets/img/casos/caspa-caso-1.webp" class="card-img-top img-fluid" alt="Antes y Después Tratamiento Caspa Caso 1" loading="lazy">
+                                <img src="<?= BASE_URL ?>img/dermatitis-capilar2.webp" class="card-img-top img-fluid" alt="Antes y Después Tratamiento Caspa Caso 1" loading="lazy">
                             </figure>
                             <div class="card-body">
                                 <span class="badge bg-success mb-2">Evolución a 4 Semanas</span>
-                                <h3 class="h5 fw-bold">Paciente Masculino (28 años)</h3>
+                                <h3 class="h5 fw-bold">Paciente Femenina (28 años)</h3>
                                 <p class="card-text text-muted small">
                                     Descamación severa por el uso continuado de geles y champús abrasivos. Eliminación total del polvillo blanco e hidratación del cuero cabelludo.
                                 </p>
@@ -225,11 +225,11 @@ require_once __DIR__ . '/../config.php';
                     <article class="col-lg-4 col-md-6">
                         <div class="card h-100 border-0 shadow-sm overflow-hidden">
                             <figure class="mb-0">
-                                <img src="<?= BASE_URL ?>assets/img/casos/caspa-caso-2.webp" class="card-img-top img-fluid" alt="Antes y Después Tratamiento Caspa Caso 2" loading="lazy">
+                                <img src="<?= BASE_URL ?>img/dermatitis-capilar3.webp" class="card-img-top img-fluid" alt="Antes y Después Tratamiento Caspa Caso 2" loading="lazy">
                             </figure>
                             <div class="card-body">
                                 <span class="badge bg-success mb-2">Evolución a 6 Semanas</span>
-                                <h3 class="h5 fw-bold">Paciente Femenina (22 años)</h3>
+                                <h3 class="h5 fw-bold">Paciente Masculino (22 años)</h3>
                                 <p class="card-text text-muted small">
                                     Cuadro de caspa crónica asociada a episodios de estrés académico. Normalización del recambio celular y cese definitivo de la picazón.
                                 </p>
@@ -241,11 +241,11 @@ require_once __DIR__ . '/../config.php';
                     <article class="col-lg-4 col-md-6">
                         <div class="card h-100 border-0 shadow-sm overflow-hidden">
                             <figure class="mb-0">
-                                <img src="<?= BASE_URL ?>assets/img/casos/caspa-caso-3.webp" class="card-img-top img-fluid" alt="Antes y Después Tratamiento Caspa Caso 3" loading="lazy">
+                                <img src="<?= BASE_URL ?>img/dermatitis-capilar1.webp" class="card-img-top img-fluid" alt="Antes y Después Tratamiento Caspa Caso 3" loading="lazy">
                             </figure>
                             <div class="card-body">
                                 <span class="badge bg-success mb-2">Evolución a 4 Semanas</span>
-                                <h3 class="h5 fw-bold">Paciente Masculino (39 años)</h3>
+                                <h3 class="h5 fw-bold">Paciente Femenino (30 años)</h3>
                                 <p class="card-text text-muted small">
                                     Resequedad con descamación persistente y falta de brillo. Restablecimiento del manto hidrolipídico mediante protocolo médico personalizado.
                                 </p>

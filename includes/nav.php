@@ -46,7 +46,7 @@
                                     <hr class="dropdown-divider">
                                 </li>
                                 <li><a class="dropdown-item py-1" href="<?= BASE_URL ?>capilar/psoriasis-capilar.php">Psoriasis Capilar</a></li>
-                                <li><a class="dropdown-item py-1" href="<?= BASE_URL ?>capilar/dermatitis-capilar.php">Dermatitis Capilar</a></li>
+                                <!-- <li><a class="dropdown-item py-1" href="<?= BASE_URL ?>capilar/dermatitis-capilar.php">Dermatitis Capilar</a></li> -->
                                 <li><a class="dropdown-item py-1" href="<?= BASE_URL ?>capilar/caspa.php">Descamación Capilar (caspa)</a></li>
                                 <li><a class="dropdown-item py-1" href="<?= BASE_URL ?>capilar/alopecia-areata.php">Alopecia Areata</a></li>
                                 <li><a class="dropdown-item py-1" href="<?= BASE_URL ?>capilar/alopecia-androgenetica.php">Alopecia Androgenética</a></li>

@@ -120,7 +120,30 @@ require_once __DIR__ . '/../config.php';
             </div>
         </div>
     </section>
+    <section class="py-5 bg-light border-top border-bottom" id="test-capilar">
+        <div class="container py-3">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <span class="badge bg-primary mb-2">Herramienta Orientativa</span>
+                    <h2 class="fw-bold text-medical mb-3">Evaluador de Sintomatología Capilar</h2>
+                    <p class="text-muted mb-4">
+                        Responde estas breves preguntas para determinar qué tanto coinciden tus síntomas con la Psoriasis Capilar, Dermatitis Seborreica u otras afecciones capilares.
+                    </p>
 
+                    <!-- Contenedor del Cuestionario interactivo gestionado por JS -->
+                    <div id="quiz-container" class="card shadow-sm border-0 p-4 text-start bg-white" data-afeccion="psoriasis">
+                        <!-- El script evaluador-capilar.js renderiza las preguntas aquí -->
+                        <div class="text-center py-4">
+                            <div class="spinner-border text-primary" role="status">
+                                <span class="visually-hidden">Cargando test...</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- 3. Llamado a la Acción Clínico -->
     <section class="py-5 bg-light border-top border-bottom">
         <div class="container py-3 text-center">
@@ -151,6 +174,7 @@ require_once __DIR__ . '/../config.php';
     <!-- Bootstrap 5 JS Bundle CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="<?= BASE_URL ?>js/whatsapp.js"></script>
+    <script src="<?= BASE_URL ?>js/evaluador-capilar.js"></script>
 </body>
 
 </html>
