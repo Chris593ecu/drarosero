@@ -82,7 +82,7 @@ require_once __DIR__ . '/config.php'
 
 <body>
     <!-- Navegación reutilizable -->
-    <?php require_once 'includes/nav.php'; ?>
+    <?php require_once BASE_PATH . 'includes/nav.php'; ?>
 
     <!-- 1. Hero Section -->
     <section id="inicio" class="hero-section">

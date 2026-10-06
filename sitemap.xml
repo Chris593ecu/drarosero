@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Página Principal -->
+    <url>
+        <loc>https://drarosero.com/</loc>
+        <lastmod>2026-10-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.00</priority>
+    </url>
+
+    <!-- Psoriasis Capilar (Prioridad Máxima) -->
+    <url>
+        <loc>https://drarosero.com/capilar/psoriasis-capilar.php</loc>
+        <lastmod>2026-10-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.00</priority>
+    </url>
+
+    <!-- Índice de la sección Capilar -->
+    <url>
+        <loc>https://drarosero.com/capilar/</loc>
+        <lastmod>2026-10-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <!-- Demás Páginas de la Sección Capilar -->
+    <url>
+        <loc>https://drarosero.com/capilar/alopecia-androgenetica.php</loc>
+        <lastmod>2026-10-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <url>
+        <loc>https://drarosero.com/capilar/alopecia-areata.php</loc>
+        <lastmod>2026-10-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <url>
+        <loc>https://drarosero.com/capilar/caspa.php</loc>
+        <lastmod>2026-10-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <url>
+        <loc>https://drarosero.com/capilar/dermatitis-capilar.php</loc>
+        <lastmod>2026-10-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <url>
+        <loc>https://drarosero.com/capilar/efluvio-telogeno.php</loc>
+        <lastmod>2026-10-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+</urlset>

@@ -26,7 +26,7 @@ if (!defined('BASE_PATH')) {
 }
 
 if (!defined('BASE_DOMAIN')) {
-    define('BASE_DOMAIN', "https: urlColocadaAquí");
+    define('BASE_DOMAIN', "https://www.drarosero.com ");
 }
 
 if (!defined('SEO_URL')) {

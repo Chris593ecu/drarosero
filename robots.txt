@@ -1,0 +1,10 @@
+User-agent: *
+
+Allow: /
+Allow: /index.php
+Allow: /capilar/index.php
+Allow: /img/
+
+
+
+Sitemap: https://www.drarosero.com/sitemap.xml
