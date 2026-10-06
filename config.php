@@ -26,10 +26,10 @@ if (!defined('BASE_PATH')) {
 }
 
 if (!defined('BASE_DOMAIN')) {
-    define('BASE_DOMAIN', "https: url");
+    define('BASE_DOMAIN', "https: urlColocadaAquí");
 }
 
 if (!defined('SEO_URL')) {
-    defined('SEO_URL', rtrim(BASE_DOMAIN, '/' . BASE_URL));
+    define('SEO_URL', rtrim(BASE_DOMAIN, '/' . BASE_URL));
 }
 */
