@@ -110,7 +110,7 @@ require_once __DIR__ . '/config.php'
                     <div class="d-flex gap-3 flex-wrap">
                         <button type="button"
                             onclick="abrirWhatsApp()"
-                            class="btn btn-primary btn-lg bg-medical border-0">
+                            class="btn btn-success btn-lg bg-medical border-0">
                             <i class="bi bi-whatsapp me-2"></i>Agendar Consulta
                         </button>
                         <!-- <a
@@ -144,17 +144,20 @@ require_once __DIR__ . '/config.php'
             </div>
             <div class="row g-4">
                 <div class="col-md-4">
-                    <div class="card h-100 border-0 shadow-sm p-3 text-center">
-                        <div class="fs-1 text-medical mb-2">
-                            <i class="bi bi-person-badge"></i>
+                    <a href="<?= BASE_URL ?>capilar/" class="text-decoration-none text-reset">
+
+                        <div class="card h-100 border-0 shadow-sm p-3 text-center">
+                            <div class="fs-1 text-medical mb-2">
+                                <i class="bi bi-person-badge"></i>
+                            </div>
+                            <h4 class="h5 fw-bold">Medicina Capilar</h4>
+                            <p class="text-muted small">
+                                Diagnóstico y tratamiento avanzado para
+                                patologías del cuero cabelludo por la Dra.
+                                Rosero.
+                            </p>
                         </div>
-                        <h4 class="h5 fw-bold">Medicina Capilar</h4>
-                        <p class="text-muted small">
-                            Diagnóstico y tratamiento avanzado para
-                            patologías del cuero cabelludo por la Dra.
-                            Rosero.
-                        </p>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-md-4">
                     <div class="card h-100 border-0 shadow-sm p-3 text-center">

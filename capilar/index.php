@@ -102,7 +102,7 @@ require_once __DIR__ . '/../config.php';
                     </p>
                     <button type="button"
                         onclick="abrirWhatsApp()"
-                        class="btn btn-primary btn-lg bg-medical border-0">
+                        class="btn btn-success btn-lg bg-medical border-0">
                         <i class="bi bi-whatsapp me-2"></i>Agendar Evaluación Capilar
                     </button>
                 </div>

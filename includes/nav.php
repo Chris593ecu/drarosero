@@ -55,7 +55,7 @@
                         </li>
 
                         <!-- SUBMENÚ 2: OBSTETRICIA (LISTO PARA MÁS ADELANTE) -->
-                        <li class="dropdown-submenu position-relative">
+                        <!-- <li class="dropdown-submenu position-relative">
                             <a class="dropdown-item dropdown-toggle py-2 fw-semibold text-dark d-flex justify-content-between align-items-center" href="#">
                                 <span><i class="bi bi-heart-pulse me-2"></i>Obstetricia</span>
                             </a>
@@ -71,7 +71,7 @@
                                 <li><a class="dropdown-item py-1" href="<?= BASE_URL ?>obstetricia/control-prenatal.php">Control Prenatal</a></li>
                                 <li><a class="dropdown-item py-1" href="<?= BASE_URL ?>obstetricia/ecografia-obstetrica.php">Ecografía Obstétrica</a></li>
                             </ul>
-                        </li>
+                        </li> -->
 
                     </ul>
                 </li>
