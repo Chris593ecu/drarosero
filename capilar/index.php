@@ -11,6 +11,20 @@ require_once __DIR__ . '/../config.php';
     <meta
         name="description"
         content="Comprende el círculo de afecciones capilares: desde la resequedad, dermatitis seborreica y caspa hasta la psoriasis capilar. Diagnóstico por la Dra. María Fernanda Rosero Franco." />
+    <!-- Meta Etiquetas SEO -->
+    <meta name="description" content="Aprende sobre las fases del deterioro del cuero cabelludo: dermatitis seborreica, caspa y psoriasis capilar. Evaluación clínica con la Dra. María Fernanda Rosero Franco." />
+    <meta name="keywords" content="salud capilar, psoriasis capilar, dermatitis seborreica, caspa, tricologia Guayaquil, caida de cabello, tratamiento cuero cabelludo, Dra Maria Fernanda Rosero, Eternal Medic" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Salud y Medicina Capilar | Dra. María Fernanda Rosero Franco" />
+    <meta property="og:description" content="Entendimiento patológico del cuero cabelludo: De la sobre-humectación y dermatitis seborreica hasta la Psoriasis Capilar. Realiza tu test de sintomatología." />
+    <meta property="og:image" content="<?= BASE_URL ?>img/dra-hair.webp" />
+    <meta property="og:url" content="<?= BASE_URL ?>capilar/" />
+    <meta property="og:site_name" content="Eternal Medic - Centro Médico Capilar" />
+    <meta property="og:locale" content="es_EC" />
+
     <title>
         Salud y Medicina Capilar | Dra. María Fernanda Rosero Franco
     </title>
@@ -27,6 +41,41 @@ require_once __DIR__ . '/../config.php';
     <!-- Estilos CSS Globales -->
     <link rel="stylesheet" href="<?= BASE_URL ?>css/index.css" />
     <link rel="stylesheet" href="<?= BASE_URL ?>css/nav.css" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="<?= SEO_URL ?>capilar/index.php" />
+
+    <!-- Schema.org JSON-LD (Artículo Médico / Servicio Clínico) -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "MedicalWebPage",
+            "name": "Salud y Medicina Capilar: Círculo de las Enfermedades Capilares",
+            "url": "<?= SEO_URL ?>capilar/",
+            "description": "Análisis clínico sobre la evolución de patologías del cuero cabelludo, incluyendo dermatitis seborreica, caspa y psoriasis capilar.",
+            "about": [{
+                    "@type": "MedicalCondition",
+                    "name": "Psoriasis Capilar"
+                },
+                {
+                    "@type": "MedicalCondition",
+                    "name": "Dermatitis Seborreica"
+                }
+            ],
+            "author": {
+                "@type": "Physician",
+                "name": "Dra. María Fernanda Rosero Franco",
+                "jobTitle": "Médica General - Formación y Enfoque en Tricología y Medicina Capilar",
+                "medicalSpecialty": "PrimaryCare"
+            },
+            "publisher": {
+                "@type": "MedicalBusiness",
+                "name": "Eternal Medic - Centro Médico Capilar",
+                "logo": "<?= SEO_URL ?>img/logo.webp",
+                "url": "<?= SEO_URL ?>"
+            }
+        }
+    </script>
 
 </head>
 

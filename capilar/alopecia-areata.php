@@ -8,6 +8,25 @@ require_once __DIR__ . '/../config.php';
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="¿Notas parches circulares sin cabello o zonas despobladas de repente? Diagnóstico y tratamiento médico especializado para Alopecia Areata con la Dra. María Fernanda Rosero Franco." />
+
+    <!-- Meta Etiquetas SEO Básicas -->
+    <meta name="description" content="¿Notas parches circulares sin cabello o zonas despobladas de repente? Diagnóstico y tratamiento médico especializado para Alopecia Areata con la Dra. María Fernanda Rosero Franco." />
+    <meta name="keywords" content="alopecia areata, parches calvos, caida de cabello en monedas, tratamiento alopecia areata Guayaquil, tricoscopia capilar, repoblación capilar, Dra Maria Fernanda Rosero, Eternal Medic" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- URL Canónica -->
+    <link rel="canonical" href="<?= SEO_URL ?>capilar/alopecia-areata.php" />
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Alopecia Areata: Tratamiento Médico de Parches Capilares | Dra. María Fernanda Rosero Franco" />
+    <meta property="og:description" content="¿Caída repentina en forma de monedas o parches lisos? Diagnóstico tricoscópico y tratamiento médico para detener la respuesta autoinmune y estimular la repoblación capilar." />
+    <meta property="og:image" content="<?= SEO_URL ?>img/alopecia-areata1.webp" />
+    <meta property="og:url" content="<?= SEO_URL ?>capilar/alopecia-areata.php" />
+    <meta property="og:site_name" content="Eternal Medic - Centro Médico Capilar" />
+    <meta property="og:locale" content="es_EC" />
+
+
     <title>Alopecia Areata: Tratamiento Médico de Parches Capilares | Dra. María Fernanda Rosero Franco</title>
 
     <!-- Bootstrap 5 CSS CDN -->
@@ -18,11 +37,38 @@ require_once __DIR__ . '/../config.php';
     <!-- Estilos CSS Globales -->
     <link rel="stylesheet" href="<?= BASE_URL ?>css/index.css" />
     <link rel="stylesheet" href="<?= BASE_URL ?>css/nav.css" />
+
+    <!-- Schema.org JSON-LD (Página Médica / Diagnóstico y Tratamiento de Alopecia Areata) -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "MedicalWebPage",
+            "name": "Alopecia Areata: Tratamiento Médico de Parches Capilares",
+            "url": "<?= SEO_URL ?>capilar/alopecia-areata.php",
+            "description": "Evaluación clínica, tricoscopia y tratamiento inmunomodulador para la Alopecia Areata.",
+            "about": [{
+                "@type": "MedicalCondition",
+                "name": "Alopecia Areata"
+            }],
+            "author": {
+                "@type": "Physician",
+                "name": "Dra. María Fernanda Rosero Franco",
+                "jobTitle": "Médica General - Formación y Enfoque en Tricología y Medicina Capilar",
+                "medicalSpecialty": "PrimaryCare"
+            },
+            "publisher": {
+                "@type": "MedicalBusiness",
+                "name": "Eternal Medic - Centro Médico Capilar",
+                "logo": "<?= SEO_URL ?>img/logo.webp",
+                "url": "<?= SEO_URL ?>"
+            }
+        }
+    </script>
 </head>
 
 <body>
     <!-- Navegación reutilizable -->
-    <?php require_once __DIR__ . '/../includes/nav.php'; ?>
+    <?php require_once BASE_PATH . 'includes/nav.php'; ?>
 
     <main id="main-content">
         <!-- 1. HERO SECTION: Enfoque en Pregunta e Identificación del Dolor -->

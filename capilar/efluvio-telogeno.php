@@ -10,6 +10,35 @@ require_once __DIR__ . '/../config.php';
     <meta name="description" content="¿Sufres de caída masiva de cabello al peinarte o ducharme? Descubre si tienes Efluvio Telógeno o Alopecia Androgenética y haz el test evaluador con la Dra. María Fernanda Rosero Franco." />
     <title>Efluvio Telógeno: Caída Masiva y Repentina de Cabello | Dra. María Fernanda Rosero Franco</title>
 
+    <!-- SEO Estándar -->
+    <title>Efluvio Telógeno: Caída Masiva y Repentina de Cabello | Dra. María Fernanda Rosero Franco</title>
+    <meta name="description" content="¿Sufres de caída masiva de cabello al peinarte o ducharme? Descubre si tienes Efluvio Telógeno o Alopecia Androgenética y haz el test evaluador con la Dra. María Fernanda Rosero Franco." />
+    <meta name="keywords" content="efluvio telogeno, caida de cabello repentina, caida masiva de pelo, alopecia, dermatologia capilar, tratamiento efluvio telogeno, Dra Maria Fernanda Rosero" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_EC" />
+    <meta property="og:site_name" content="Dra. María Fernanda Rosero Franco" />
+    <meta property="og:title" content="Efluvio Telógeno: Caída Masiva y Repentina de Cabello | Dra. María Fernanda Rosero Franco" />
+    <meta property="og:description" content="¿Sufres de caída masiva de cabello al peinarte o ducharme? Descubre si tienes Efluvio Telógeno o Alopecia Androgenética y haz el test evaluador con la Dra. María Fernanda Rosero Franco." />
+    <meta property="og:url" content="<?= SEO_URL ?>capilar/efluvio-telogeno.php" />
+    <meta property="og:image" content="<?= SEO_URL ?>img/efluvio-telogeno1.webp" />
+    <meta property="og:image:secure_url" content="<?= SEO_URL ?>img/efluvio-telogeno1.webp" />
+    <meta property="og:image:type" content="image/webp" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Tratamiento de Efluvio Telógeno - Dra. María Fernanda Rosero Franco" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Efluvio Telógeno: Caída Masiva y Repentina de Cabello | Dra. María Fernanda Rosero Franco" />
+    <meta name="twitter:description" content="¿Sufres de caída masiva de cabello al peinarte o ducharme? Descubre si tienes Efluvio Telógeno o Alopecia Androgenética y haz el test evaluador con la Dra. María Fernanda Rosero Franco." />
+    <meta name="twitter:image" content="<?= SEO_URL ?>img/efluvio-telogeno1.webp" />
+    <!-- Etiqueta Canónica Semántica Directa -->
+    <link rel="canonical" href="<?= SEO_URL ?>capilar/efluvio-telogeno.php" />
+
     <!-- Bootstrap 5 CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Bootstrap Icons -->
@@ -18,11 +47,61 @@ require_once __DIR__ . '/../config.php';
     <!-- Estilos CSS Globales -->
     <link rel="stylesheet" href="<?= BASE_URL ?>css/index.css" />
     <link rel="stylesheet" href="<?= BASE_URL ?>css/nav.css" />
+
+    <!-- Schema.org - Datos Estructurados JSON-LD -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [{
+                    "@type": "MedicalWebPage",
+                    "@id": "<?= SEO_URL ?>capilar/efluvio-telogeno.php#webpage",
+                    "url": "<?= SEO_URL ?>capilar/efluvio-telogeno.php",
+                    "name": "Efluvio Telógeno: Caída Masiva y Repentina de Cabello | Dra. María Fernanda Rosero Franco",
+                    "description": "¿Sufres de caída masiva de cabello al peinarte o ducharme? Descubre si tienes Efluvio Telógeno o Alopecia Androgenética y haz el test evaluador con la Dra. María Fernanda Rosero Franco.",
+                    "inLanguage": "es",
+                    "about": {
+                        "@type": "MedicalCondition",
+                        "name": "Efluvio Telógeno",
+                        "alternateName": "Caída masiva y aguda de cabello",
+                        "possibleTreatment": [{
+                            "@type": "MedicalTherapy",
+                            "name": "Tratamiento Médico Capilar Integrativo"
+                        }],
+                        "signOrSymptom": [{
+                                "@type": "MedicalSymptom",
+                                "name": "Desprendimiento difuso de cabello"
+                            },
+                            {
+                                "@type": "MedicalSymptom",
+                                "name": "Pérdida de densidad capilar"
+                            }
+                        ]
+                    },
+                    "author": {
+                        "@type": "Physician",
+                        "name": "Dra. María Fernanda Rosero Franco",
+                        "jobTitle": "Doctora en Medicina General",
+                        "url": "<?= SEO_URL ?>"
+                    }
+                },
+                {
+                    "@type": "MedicalBusiness",
+                    "@id": "<?= SEO_URL ?>#organization",
+                    "name": "Consulta Médica Dra. María Fernanda Rosero Franco",
+                    "url": "<?= SEO_URL ?>",
+                    "image": "<?= SEO_URL ?>img/efluvio-telogeno1.webp",
+                    "priceRange": "$$"
+                }
+            ]
+        }
+    </script>
 </head>
 
 <body>
     <!-- Navegación reutilizable -->
-    <?php require_once __DIR__ . '/../includes/nav.php'; ?>
+
+    <?php require_once BASE_PATH . 'includes/nav.php'; ?>
+
 
     <main id="main-content">
         <!-- 1. HERO SECTION: Enfoque en Pregunta e Identificación del Dolor -->

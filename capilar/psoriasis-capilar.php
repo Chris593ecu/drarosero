@@ -10,6 +10,33 @@ require_once __DIR__ . '/../config.php';
     <meta name="description" content="¿Presentas escamas gruesas, picazón intensa y sangrado en el cuero cabelludo? Descubre si tienes Psoriasis Capilar y evalúa tus síntomas con la Dra. María Fernanda Rosero Franco." />
     <title>Psoriasis Capilar: Síntomas, Evaluación y Tratamiento | Dra. María Fernanda Rosero Franco</title>
 
+    <meta name="description" content="¿Presentas escamas gruesas, picazón intensa y sangrado en el cuero cabelludo? Descubre si tienes Psoriasis Capilar y evalúa tus síntomas con la Dra. María Fernanda Rosero Franco." />
+    <meta name="keywords" content="psoriasis capilar, escamas cuero cabelludo, picazon capilar, costras en la cabeza, tratamiento psoriasis capilar, Dra Maria Fernanda Rosero, dermatologia capilar" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_EC" />
+    <meta property="og:site_name" content="Dra. María Fernanda Rosero Franco" />
+    <meta property="og:title" content="Psoriasis Capilar: Síntomas, Evaluación y Tratamiento | Dra. María Fernanda Rosero Franco" />
+    <meta property="og:description" content="¿Presentas escamas gruesas, picazón intensa y sangrado en el cuero cabelludo? Descubre si tienes Psoriasis Capilar y evalúa tus síntomas con la Dra. María Fernanda Rosero Franco." />
+    <meta property="og:url" content="<?= SEO_URL ?>capilar/psoriasis-capilar.php" />
+    <meta property="og:image" content="<?= SEO_URL ?>img/psoriasis-capilar1.webp" />
+    <meta property="og:image:secure_url" content="<?= SEO_URL ?>img/psoriasis-capilar1.webp" />
+    <meta property="og:image:type" content="image/webp" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Tratamiento de Psoriasis Capilar - Dra. María Fernanda Rosero Franco" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Psoriasis Capilar: Síntomas, Evaluación y Tratamiento | Dra. María Fernanda Rosero Franco" />
+    <meta name="twitter:description" content="¿Presentas escamas gruesas, picazón intensa y sangrado en el cuero cabelludo? Descubre si tienes Psoriasis Capilar y evalúa tus síntomas con la Dra. María Fernanda Rosero Franco." />
+    <meta name="twitter:image" content="<?= SEO_URL ?>img/psoriasis-capilar1.webp" />
+
+    <!-- Etiqueta Canónica Semántica Directa -->
+    <link rel="canonical" href="<?= SEO_URL ?>capilar/psoriasis-capilar.php" />
+
     <!-- Bootstrap 5 CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Bootstrap Icons -->
@@ -18,6 +45,58 @@ require_once __DIR__ . '/../config.php';
     <!-- Estilos CSS Globales -->
     <link rel="stylesheet" href="<?= BASE_URL ?>css/index.css" />
     <link rel="stylesheet" href="<?= BASE_URL ?>css/nav.css" />
+
+    <!-- Schema.org - Datos Estructurados JSON-LD -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [{
+                    "@type": "MedicalWebPage",
+                    "@id": "<?= SEO_URL ?>capilar/psoriasis-capilar.php#webpage",
+                    "url": "<?= SEO_URL ?>capilar/psoriasis-capilar.php",
+                    "name": "Psoriasis Capilar: Síntomas, Evaluación y Tratamiento | Dra. María Fernanda Rosero Franco",
+                    "description": "¿Presentas escamas gruesas, picazón intensa y sangrado en el cuero cabelludo? Descubre si tienes Psoriasis Capilar y evalúa tus síntomas con la Dra. María Fernanda Rosero Franco.",
+                    "inLanguage": "es",
+                    "about": {
+                        "@type": "MedicalCondition",
+                        "name": "Psoriasis Capilar",
+                        "alternateName": "Psoriasis del cuero cabelludo",
+                        "possibleTreatment": [{
+                            "@type": "MedicalTherapy",
+                            "name": "Protocolo Médico de Remisión Inflamatoria Capilar"
+                        }],
+                        "signOrSymptom": [{
+                                "@type": "MedicalSymptom",
+                                "name": "Escamas gruesas y plateadas"
+                            },
+                            {
+                                "@type": "MedicalSymptom",
+                                "name": "Picazón e irritación intensa"
+                            },
+                            {
+                                "@type": "MedicalSymptom",
+                                "name": "Placas hiperqueratósicas fuera del límite del cabello"
+                            }
+                        ]
+                    },
+                    "author": {
+                        "@type": "Physician",
+                        "name": "Dra. María Fernanda Rosero Franco",
+                        "jobTitle": "Doctora en Medicina General",
+                        "url": "<?= SEO_URL ?>"
+                    }
+                },
+                {
+                    "@type": "MedicalBusiness",
+                    "@id": "<?= SEO_URL ?>#organization",
+                    "name": "Consulta Médica Dra. María Fernanda Rosero Franco",
+                    "url": "<?= SEO_URL ?>",
+                    "image": "<?= SEO_URL ?>img/psoriasis-capilar1.webp",
+                    "priceRange": "$$"
+                }
+            ]
+        }
+    </script>
 </head>
 
 <body>

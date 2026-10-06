@@ -15,6 +15,29 @@ require_once __DIR__ . '/config.php'
         Dra. María Fernanda Rosero Franco | Directora General Eternal Medic
     </title>
 
+    <meta name="description" content="Sitio oficial de la Dra. María Fernanda Rosero Franco, Directora General de Eternal Medic en Guayaquil. Medicina capilar, diagnóstico de alopecia, psoriasis y salud integral." />
+    <meta name="keywords" content="Dra Maria Fernanda Rosero, Eternal Medic, medicina capilar Guayaquil, tratamiento para la caida de cabello, tratamiento alopecia, psoriasis capilar, dermatitis seborreica, tricoscopia digital, centro medico Guayaquil" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="<?= BASE_URL ?>" />
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Dra. María Fernanda Rosero Franco | Directora General Eternal Medic" />
+    <meta property="og:description" content="Medicina Capilar y Salud Integral en Guayaquil. Diagnóstico y tratamiento avanzado para patologías del cuero cabelludo." />
+    <meta property="og:image" content="<?= BASE_URL ?>img/dra-de-pie.webp" />
+    <meta property="og:url" content="<?= BASE_URL ?>" />
+    <meta property="og:site_name" content="Eternal Medic - Centro Médico Capilar" />
+    <meta property="og:locale" content="es_EC" />
+
+    <!-- Logo -->
+    <link rel="icon" type="image/png" href="<?= BASE_URL ?>img/logo.webp" />
+
+    <!-- Google Search Verification (URGENTE)-->
+    <!-- <meta name="google-site-verification" content="APi_XmP8alRoBHkGkAUMZG2MXdAEioZ9rKtAKAqjiXU" /> -->
+
+
     <!-- Bootstrap 5 CSS CDN -->
     <link
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -27,10 +50,33 @@ require_once __DIR__ . '/config.php'
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="<?= BASE_URL ?>css/index.css" />
     <link rel="stylesheet" href="<?= BASE_URL ?>css/nav.css" />
-
-    <!-- Logo -->
-    <link rel="icon" type="image/png" href="<?= BASE_URL ?>img/logo.webp" />
-
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "MedicalBusiness",
+            "name": "Eternal Medic - Centro Médico Capilar",
+            "url": "<?= BASE_URL ?>",
+            "logo": "<?= BASE_URL ?>img/logo.webp",
+            "image": "<?= BASE_URL ?>img/dra-de-pie.webp",
+            "description": "Centro médico para salud y medicina capilar, diagnóstico de afecciones del cuero cabelludo y consulta médica integral.",
+            "medicalSpecialty": [
+                "Trichology",
+                "PrimaryCare"
+            ],
+            "founder": {
+                "@type": "Physician",
+                "name": "Dra. María Fernanda Rosero Franco",
+                "jobTitle": "Directora General en Medicina Capilar"
+            },
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Guayaquil",
+                "addressRegion": "Guayas",
+                "addressCountry": "EC"
+            },
+            "areaServed": "EC"
+        }
+    </script>
 
 </head>
 

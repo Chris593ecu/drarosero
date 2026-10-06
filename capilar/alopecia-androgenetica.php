@@ -8,6 +8,23 @@ require_once __DIR__ . '/../config.php';
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="¿Notas entradas pronunciadas, claridad en la coronilla o pérdida general de densidad? Realiza el test de 6 preguntas y evalúa si sufres de Alopecia Androgenética o Efluvio Telógeno con la Dra. María Fernanda Rosero Franco." />
+    <!-- Meta Etiquetas SEO Básicas -->
+    <meta name="description" content="¿Notas entradas pronunciadas, claridad en la coronilla o pérdida de densidad? Realiza el test evaluador y consulta tratamientos para Alopecia Androgenética con la Dra. María Fernanda Rosero Franco." />
+    <meta name="keywords" content="alopecia androgenetica, efluvio telogeno, caida de cabello, tratamiento alopecia Guayaquil, miniaturizacion folicular, densidad capilar, Dra Maria Fernanda Rosero, Eternal Medic" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- URL Canónica -->
+    <link rel="canonical" href="<?= SEO_URL ?>capilar/alopecia-androgenetica.php" />
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Alopecia Androgenética y Caída Capilar: Tratamiento Médico | Dra. María Fernanda Rosero Franco" />
+    <meta property="og:description" content="¿Entradas prominentes, coronilla despoblada o caída masiva? Identifica si sufres de Alopecia Androgenética o Efluvio Telógeno con nuestro evaluador de 6 preguntas." />
+    <meta property="og:image" content="<?= BASE_URL ?>img/alopecia-androgenetica1.webp" />
+    <meta property="og:url" content="<?= SEO_URL ?>capilar/alopecia-androgenetica.php" />
+    <meta property="og:site_name" content="Eternal Medic - Centro Médico Capilar" />
+    <meta property="og:locale" content="es_EC" />
+
     <title>Alopecia Androgenética y Caída Capilar: Tratamiento Médico | Dra. María Fernanda Rosero Franco</title>
 
     <!-- Bootstrap 5 CSS CDN -->
@@ -18,11 +35,43 @@ require_once __DIR__ . '/../config.php';
     <!-- Estilos CSS Globales -->
     <link rel="stylesheet" href="<?= BASE_URL ?>css/index.css" />
     <link rel="stylesheet" href="<?= BASE_URL ?>css/nav.css" />
+
+    <!-- Schema.org JSON-LD (Página Médica / Diagnóstico y Tratamiento) -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "MedicalWebPage",
+            "name": "Alopecia Androgenética y Caída Capilar: Evaluador y Tratamiento Médico",
+            "url": "<?= SEO_URL ?>capilar/alopecia-androgenetica.php",
+            "description": "Evaluación clínica y diferenciación diagnóstica entre Alopecia Androgenética y Efluvio Telógeno Agudo.",
+            "about": [{
+                    "@type": "MedicalCondition",
+                    "name": "Alopecia Androgenética"
+                },
+                {
+                    "@type": "MedicalCondition",
+                    "name": "Efluvio Telógeno"
+                }
+            ],
+            "author": {
+                "@type": "Physician",
+                "name": "Dra. María Fernanda Rosero Franco",
+                "jobTitle": "Médica General - Formación y Enfoque en Tricología y Medicina Capilar",
+                "medicalSpecialty": "PrimaryCare"
+            },
+            "publisher": {
+                "@type": "MedicalBusiness",
+                "name": "Eternal Medic - Centro Médico Capilar",
+                "logo": "<?= SEO_URL ?>img/logo.webp",
+                "url": "<?= SEO_URL ?>"
+            }
+        }
+    </script>
 </head>
 
 <body>
     <!-- Navegación reutilizable -->
-    <?php require_once __DIR__ . '/../includes/nav.php'; ?>
+    <?php require_once BASE_PATH . 'includes/nav.php'; ?>
 
     <main id="main-content">
         <!-- 1. HERO SECTION: Enfoque en Pregunta e Identificación del Dolor -->
