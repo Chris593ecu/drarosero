@@ -33,8 +33,10 @@
 
                         <!-- SUBMENÚ 1: SALUD CAPILAR -->
                         <li class="dropdown-submenu position-relative">
-                            <a class="dropdown-item dropdown-toggle py-2 fw-semibold text-primary d-flex justify-content-between align-items-center">
+                            <a class="dropdown-item py-2 fw-semibold text-primary d-flex justify-content-between align-items-center submenu-toggle"
+                                href="#">
                                 <span><i class="bi bi-person-badge me-2"></i>Salud Capilar</span>
+                                <i class="bi bi-chevron-down small text-muted"></i>
                             </a>
                             <ul class="dropdown-menu shadow border-0 py-2">
                                 <li>
@@ -46,13 +48,13 @@
                                     <hr class="dropdown-divider">
                                 </li>
                                 <li><a class="dropdown-item py-1" href="<?= BASE_URL ?>capilar/psoriasis-capilar.php">Psoriasis Capilar</a></li>
-                                <!-- <li><a class="dropdown-item py-1" href="<?= BASE_URL ?>capilar/dermatitis-capilar.php">Dermatitis Capilar</a></li> -->
                                 <li><a class="dropdown-item py-1" href="<?= BASE_URL ?>capilar/caspa.php">Descamación Capilar (caspa)</a></li>
                                 <li><a class="dropdown-item py-1" href="<?= BASE_URL ?>capilar/alopecia-areata.php">Alopecia Areata</a></li>
                                 <li><a class="dropdown-item py-1" href="<?= BASE_URL ?>capilar/alopecia-androgenetica.php">Alopecia Androgenética</a></li>
                                 <li><a class="dropdown-item py-1" href="<?= BASE_URL ?>capilar/efluvio-telogeno.php">Efluvio Telógeno</a></li>
                             </ul>
                         </li>
+
 
                         <!-- SUBMENÚ 2: OBSTETRICIA (LISTO PARA MÁS ADELANTE) -->
                         <!-- <li class="dropdown-submenu position-relative">
@@ -79,3 +81,19 @@
         </div>
     </div>
 </nav>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('.dropdown-submenu > a.submenu-toggle').forEach(function(element) {
+            element.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation(); // Evita cerrar el menú Servicios
+
+                let subMenu = this.nextElementSibling;
+                if (subMenu) {
+                    subMenu.classList.toggle('show');
+                }
+            });
+        });
+    });
+</script>
