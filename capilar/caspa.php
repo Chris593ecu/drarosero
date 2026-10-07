@@ -19,6 +19,9 @@ require_once __DIR__ . '/../config.php';
     <!-- URL Canónica -->
     <link rel="canonical" href="<?= SEO_URL ?>capilar/caspa.php" />
 
+    <!-- Logo -->
+    <link rel="icon" type="image/png" href="<?= BASE_URL ?>img/logo.webp" />
+
     <!-- Open Graph / Facebook / WhatsApp -->
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_EC" />
@@ -369,8 +372,8 @@ require_once __DIR__ . '/../config.php';
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="<?= BASE_URL ?>js/whatsapp.js"></script>
-    <script src="<?= BASE_URL ?>js/evaluador-capilar.js"></script>
+    <script src="<?= BASE_URL ?>js/whatsapp.js?v=<?= filemtime(BASE_PATH . 'js/whatsapp.js') ?>"></script>
+    <script src="<?= BASE_URL ?>js/evaluador-capilar.js?v=<?= filemtime(BASE_PATH . 'js/evaluador-capilar.js') ?>"></script>
 </body>
 
 </html>

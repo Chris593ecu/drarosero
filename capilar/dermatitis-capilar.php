@@ -280,8 +280,8 @@ require_once __DIR__ . '/../config.php';
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="<?= BASE_URL ?>js/whatsapp.js"></script>
-    <script src="<?= BASE_URL ?>js/evaluador-capilar.js"></script>
+    <script src="<?= BASE_URL ?>js/whatsapp.js?v=<?= filemtime(BASE_PATH . 'js/whatsapp.js') ?>"></script>
+    <script src="<?= BASE_URL ?>js/evaluador-capilar.js?v=<?= filemtime(BASE_PATH . 'js/evaluador-capilar.js') ?>"></script>
 </body>
 
 </html>

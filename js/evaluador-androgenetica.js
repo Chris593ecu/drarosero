@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         const mensajeWS = encodeURIComponent(
-            `Hola Dra. Rosero, realicé el evaluador de alopecia en la web. Mi resultado fue: "${titulo}". Deseo agendar una cita de valoración.`
+            `Hola Dra. Rosero, realicé el evaluador de alopecia en la web. Mi resultado fue: "${titulo}". ¿Me podría ayudar con más información?`
         );
 
         quizContainer.innerHTML = `

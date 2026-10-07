@@ -45,6 +45,9 @@ require_once __DIR__ . '/../config.php';
     <!-- Canonical URL -->
     <link rel="canonical" href="<?= SEO_URL ?>capilar/index.php" />
 
+    <!-- Logo -->
+    <link rel="icon" type="image/png" href="<?= BASE_URL ?>img/logo.webp" />
+
     <!-- Schema.org JSON-LD (Artículo Médico / Servicio Clínico) -->
     <script type="application/ld+json">
         {

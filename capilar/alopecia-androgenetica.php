@@ -16,6 +16,9 @@ require_once __DIR__ . '/../config.php';
     <!-- URL Canónica -->
     <link rel="canonical" href="<?= SEO_URL ?>capilar/alopecia-androgenetica.php" />
 
+    <!-- Logo -->
+    <link rel="icon" type="image/png" href="<?= BASE_URL ?>img/logo.webp" />
+
     <!-- Open Graph / Facebook / WhatsApp -->
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Alopecia Androgenética y Caída Capilar: Tratamiento Médico | Dra. María Fernanda Rosero Franco" />
@@ -329,8 +332,8 @@ require_once __DIR__ . '/../config.php';
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="<?= BASE_URL ?>js/whatsapp.js"></script>
-    <script src="<?= BASE_URL ?>js/evaluador-androgenetica.js"></script>
+    <script src="<?= BASE_URL ?>js/whatsapp.js?v= <?= filemtime(BASE_PATH . 'js/whatsapp.js') ?>"></script>
+    <script src="<?= BASE_URL ?>js/evaluador-androgenetica.js?v=<?= filemtime(BASE_PATH . 'js/evaluador-androgenetica.js') ?>"></script>
 </body>
 
 </html>
