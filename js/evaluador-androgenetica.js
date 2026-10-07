@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         const mensajeWS = encodeURIComponent(
-            `Hola Dra. Rosero, realicé el evaluador de alopecia en la web. Mi resultado fue: "${titulo}". Deseo agendar una cita de valoración.`,
+            `Hola Dra. Rosero, realicé el evaluador de alopecia en la web. Mi resultado fue: "${titulo}". Deseo agendar una cita de valoración.`
         );
 
         quizContainer.innerHTML = `
@@ -201,13 +201,13 @@ document.addEventListener('DOMContentLoaded', function () {
                 <span class="badge ${badgeColor} fs-6 mb-3 px-3 py-2">${titulo}</span>
                 <h3 class="h4 fw-bold text-dark mb-3">Resultado de tu Evaluación</h3>
                 <p class="text-muted mb-4">${descripcion}</p>
-                
+
                 <div class="p-3 bg-light rounded mb-4 text-start small">
                     <p class="fw-bold mb-1 text-dark"><i class="bi bi-info-circle-fill text-primary me-2"></i>Nota Médica Importante:</p>
                     <p class="mb-0 text-muted">Este evaluador es de carácter orientativo. Un diagnóstico certero requiere dermatoscopia digital en consulta.</p>
                 </div>
 
-                <a href="https://wa.me/593999999999?text=${mensajeWS}" target="_blank" class="btn btn-success btn-lg w-100 py-3 fw-bold">
+                <a href="https://wa.me/593969748118?text=${mensajeWS}" target="_blank" class="btn btn-success btn-lg w-100 py-3 fw-bold">
                     <i class="bi bi-whatsapp me-2"></i>Consultar este Resultado por WhatsApp
                 </a>
             </div>
