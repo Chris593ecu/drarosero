@@ -12,7 +12,8 @@ if (!defined('BASE_DOMAIN')) {
 }
 
 if (!defined('SEO_URL')) {
-    define('SEO_URL', rtrim(BASE_DOMAIN, '/' . BASE_URL));
+    // define('SEO_URL', rtrim(BASE_DOMAIN, '/' . BASE_URL));
+    define('SEO_URL', rtrim(BASE_DOMAIN, '/') . '/');
 }
 
 //Producción:
@@ -30,6 +31,6 @@ if (!defined('BASE_DOMAIN')) {
 }
 
 if (!defined('SEO_URL')) {
-    define('SEO_URL', rtrim(BASE_DOMAIN, '/' . BASE_URL));
+    define('SEO_URL', rtrim(BASE_DOMAIN, '/') . '/');
 }
 */
